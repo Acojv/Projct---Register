@@ -1,0 +1,173 @@
+/* geral */
+*{/**/
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;/*Definindo uma fonte*/
+  color:#333; /*definindo cor*/
+  box-sizing: border-box;  /*anula a bordas e margens*/
+}
+body{
+    background-image: url("../img/img.paisagem.jpg");/* adicionando imagem de fundo */
+    background-position:center; /* posicionando a img */
+    background-size: cover; /* adapta na imagem do usuario */
+}
+button{
+    background-color: #fdfdfd; /*cor fundo button */
+     /* cor do button */
+    border : 2px solid  ; /**/
+    padding: .3rem .6rem;/* rem - adapta a unidade de medida */
+    font-size: 1rem; /*Tamanho da fonte*/
+    display:flex ; /* alinha e destribui espaços */
+    justify-items: center;/*controla o alinhamento de todos os itens no eixo principal */
+    align-items: center;/* controla o alinhamento de todos os itens */
+    transition: 0.4s; /* efeitos de animação */
+}
+button:hover{ /* animação com o mouse no propriedade indicada */
+    background-color: #FFD700; /**/
+    color: 	#000000;
+}
+
+input,select{/* caixa de seletores */
+    padding: 0.25rem 0.5rem;/* espaçamento */
+    border-radius: 10px;
+    width: 350px;
+    line-height:40px;
+    
+    
+}
+.hide { /*nova classe*/
+  display: none; /* remove o elemento */
+}
+
+/* todo header*/
+.todo-container{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    max-width: 450px ;/*largura maxima*/
+    margin: 6rem auto 0; /* centro pagina*/
+    padding: 1.5rem;/* distancia o elemento e suas bordas */
+    border-radius: 20px;
+}
+.todo-container header{ /* (Cabeçalho) titulo pagina */
+    /* alinhamento */
+    padding: 0 1rem 1rem ;/* espaçamneto */
+    border-bottom: 1px solid #ccc ; /* define a espessura da linha*/
+}
+
+ /* todo form */
+ #todo-form, #edit-form{
+    padding: 1rem;/**/
+
+   /* define a espessura da linha */
+    
+}
+#todo-form p, #edit-form p{ /* afastando formulario */
+   margin-bottom: 0.5rem;  /* espaço para baixo */
+   font-weight: bold; /* peso,intensidade da fonte */
+   
+}
+.form-control{/* icones */
+    display: flex; /* alinha e destribui espaços */
+}
+.form-control input{ /* espaçamento icones */
+    margin-right: .3rem; /* define dimensão da margem */
+}
+
+#cancel-edit-bnt {
+    margin-top: 1rem;/* espaço acima */
+}
+
+/* todo toolbar */
+
+#toolbar { /* pesquisar */
+    padding: 1rem; /**/
+    border-bottom: 1px solid #ccc; /* define a espessura da linha */
+    display: flex; /* alinha e destribui espaços */
+}
+#toolbar p{
+    margin-bottom: 5px;
+     
+}
+
+#search h4{
+    margin-bottom: 0.5rem;
+}
+
+.top1{  
+   display: flex;
+    border-right: 10px;
+   margin-top: 20px;
+}
+.top1 p{
+    padding-left: 35px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+}
+
+.top2{
+    text-decoration: none;/*tirando marcaçaõ*/
+    padding: 10px;
+    width: 100px;
+}
+.top2 p{
+    padding-left: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.top3 { /*botão enviar*/
+    
+    border-radius: 10px;  
+    width: 160px; 
+}
+
+.pouch{
+    padding: 10px;
+}
+
+.abc{
+    padding-left: 90px ;
+    margin-top: 10px;
+   
+}
+.pouch{
+    text-decoration: none;
+}
+
+.pouch:hover{
+    color: blue;
+}
+
+.ppp{
+   padding-left: 250px;
+}
+
+.pco { /* buttom inscreva-se */
+    text-decoration: none;
+    background-color: #FFD700;
+    
+}
+.pco p{ /* escreva-se buttom */
+  padding-left: 20px;
+}
+
+.ben10 { /**/
+    
+    padding-left: 90px;
+    margin-top: 10px;
+    border-radius: 10px;
+     
+}
+.ben10 button{
+   border-radius: 10px;
+   width: 150px;
+}
+
+/* Fim tela de login*/
+
+
+/* tela de cadastro */
+
+
+

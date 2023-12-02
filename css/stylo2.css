@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;/*Definindo uma fonte*/
+    color:#333; /*definindo cor*/
+    box-sizing: border-box;  /*anula a bordas e margens*/
+}
+
+/*codigo reponsivel*/
+@media all and (min-width:768px) { 
+    body{
+        width: 100%; /* tablet */
+    }
+}
+body{
+    background-image: url("../img/img.paisagem.jpg");
+    background-position:center; /* posicionando a img */
+    background-size: cover; /* adapta na imagem do usuario */
+}
+
+ button {
+    border-radius: 0px;
+    width: 100px;
+    margin-bottom: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+input {
+    margin-bottom: 8px;
+    border-radius: 10px;
+    width: 20rem;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+} 
+.btn1{
+    margin-bottom: 8px;
+    border-radius: 10px;
+    width: 20rem;
+    padding: 10px;
+}
+
+/* toda a aba sinza*/
+.todo-container{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    max-width: 450px;
+    margin: 3rem auto 0;
+    padding: 1.5rem;
+    border-radius: 20px; 
+    padding: 15px;
+
+}
+.img1:hover{
+
+     transform: translateY(-8px);
+}
+  
+#meuFormulario{
+   padding-left: 100px;
+
+} 
+
+.ap1{ /* crie seu cadastro */
+  padding: 5px;  
+}
+
+.ap1 h3{
+    margin-left: 60px;
+    font-size: 30px;
+    padding: .3rem .6rem;
+   
+}
+
+
+.btn1{ /* bottom Criar perfil*/
+    margin-bottom: 8px;
+    border-radius: 10px;
+    width: 90px;
+    padding-top: 9px;
+    
+}
+
+.btn1:hover{ /* mouse bottom criar perfil */
+  background-color:#FFD700;
+  
+}
+
+.btn1 p{ /* escrita do bottom*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.ff{
+  padding-left: 10px;
+  padding-top: 10px;
+  top: 1000px;
+  ;
+
+
+}
+.ff{
+ width: 100px;
+}
+ .tt{ /*todas img */
+    padding: 100px;
+    width: 5%;
+}
+
+.img1{ /*imagem facebook*/
+    width: 15%;
+    padding-left: 10px;
+   
+    content: 100px;
+}
+.img2{ /*imagem twitter */
+    width: 10%;
+   
+}
+
+.img3{ /*imagem gloogle*/
+    width: 10%;
+   
+}  
+
+.navega h5{
+    padding: 8px;
+}
+
+.navega button{
+    background-color: #FFD700;
+}
+
+.img-saida{
+    width: 90%;
+    padding: 5px;
+}
